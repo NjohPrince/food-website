@@ -3,14 +3,13 @@ import React from "react";
 import classes from "./landing.module.css";
 
 import NavbarOrganism from "../../components/organisms/navbar/Navbar.organism";
-import ButtonMolecule from "../../components/molecules/button/Button.molecule";
+import HeroTemplate from "../../components/templates/home/hero/Hero.template";
 
 const LandingPage = () => {
   return (
     <div className={classes.home}>
       <NavbarOrganism />
-
-      <ButtonMolecule text="Order Now" />
+      <HeroTemplate />
     </div>
   );
 };
