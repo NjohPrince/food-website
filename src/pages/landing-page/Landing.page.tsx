@@ -2,12 +2,15 @@ import React from "react";
 
 import classes from "./landing.module.css";
 
-import FoodiLogoIcon from "../../components/atoms/icons/FoodiLogo.icon";
+import NavbarOrganism from "../../components/organisms/navbar/Navbar.organism";
+import ButtonMolecule from "../../components/molecules/button/Button.molecule";
 
 const LandingPage = () => {
   return (
     <div className={classes.home}>
-      <FoodiLogoIcon />
+      <NavbarOrganism />
+
+      <ButtonMolecule text="Order Now" />
     </div>
   );
 };

@@ -1,3 +1,31 @@
 .navbar {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 154px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 60px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--dark-menu-color);
+  transition: 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+  color: #39DB4A;
+}
+
+.call__to__actions {
+  display: flex;
+  align-items: center;
+  gap: 32px;
 }
