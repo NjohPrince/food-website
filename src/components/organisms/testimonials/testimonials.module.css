@@ -1,0 +1,53 @@
+.box {
+  display: flex;
+  gap: 138px;
+  margin: 221px 0;
+}
+
+.imagebox {
+  position: relative;
+  height: 744px;
+  width: 1200px;
+}
+.imagebox img {
+  width: 100%;
+  display: block;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.title {
+  color: #ff6868;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+.article1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.023%;
+  margin: 53px 0 29px 0;
+  width: 735px;
+}
+
+.article2 {
+  color: #555;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 159%;
+}
