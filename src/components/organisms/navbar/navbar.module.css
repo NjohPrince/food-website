@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 154px;
+  padding-top: 57px;
 }
 
 .menu {
@@ -21,7 +21,7 @@
 }
 
 .menu li a:hover {
-  color: #39DB4A;
+  color: #39db4a;
 }
 
 .call__to__actions {

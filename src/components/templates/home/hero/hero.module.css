@@ -1,16 +1,15 @@
 .hero {
-  padding: 28px 154px;
   display: flex;
   gap: 38px;
   align-items: center;
 }
 
-.hero > div {
-  flex: 1;
-}
-
 .hero img {
   width: 100%;
+}
+
+.text {
+  width: 677px;
 }
 
 .text h1 {
@@ -33,6 +32,6 @@
 }
 
 .btns {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
