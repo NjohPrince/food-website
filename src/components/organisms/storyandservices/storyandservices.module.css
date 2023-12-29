@@ -1,0 +1,66 @@
+.box {
+  display: flex;
+  gap: 96px;
+}
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 247px 0;
+  padding-top: 47px;
+}
+.title {
+  color: #ff6868;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+}
+
+.article1 {
+  color: #000;
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 53px 0 50px 0;
+}
+
+.article2 {
+  color: #555;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  margin-bottom: 53px;
+}
+
+.button {
+  width: 215px;
+  min-height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  background: #39db4a;
+  color: #fff;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  border: none;
+}
+.card_box {
+  gap: 36px;
+  display: flex;
+  flex-direction: column;
+}
+.card_box > div {
+  display: flex;
+  gap: 36px;
+}

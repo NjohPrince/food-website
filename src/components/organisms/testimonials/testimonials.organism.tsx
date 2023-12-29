@@ -6,7 +6,7 @@ export const Testimonials = () => {
     <Container>
       <div className={styles.box}>
         <div className={styles.imagebox}>
-          <img src="./pngwing 2.png" alt="image" />
+            <img src="./pngwing 2.png" alt="image" />
         </div>
         <div className={styles.content_box}>
           <div className={styles.title}>

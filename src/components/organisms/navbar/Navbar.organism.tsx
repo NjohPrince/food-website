@@ -11,31 +11,34 @@ import ShoppingCartIcon from "../../atoms/icons/ShoppingCart.icon";
 import ButtonMolecule from "../../molecules/button/Button.molecule";
 import PhoneCallIcon from "../../atoms/icons/PhoneCall.icon";
 import CaretIcon from "../../atoms/icons/Caret.icon";
+import { Container } from "../../molecules/container/container.molecules";
 
 const NavbarOrganism = () => {
   return (
-    <nav role="navigation" className={styles.navbar}>
-      <div className={styles.logo}>
-        <FoodiLogoIcon />
-      </div>
-      <ul className={styles.menu}>
-        {menuItems.map((item, index) => {
-          return (
-            <li key={index}>
-              <Link to={item.url}>
-                {item.title} {item.hasIcon ? <CaretIcon /> : ""}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+    <Container>
+      <nav role="navigation" className={styles.navbar}>
+        <div className={styles.logo}>
+          <FoodiLogoIcon />
+        </div>
+        <ul className={styles.menu}>
+          {menuItems.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link to={item.url}>
+                  {item.title} {item.hasIcon ? <CaretIcon /> : ""}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
 
-      <div className={styles.call__to__actions}>
-        <SearchIcon />
-        <ShoppingCartIcon />
-        <ButtonMolecule text="Contact" icon={<PhoneCallIcon size="20" />} />
-      </div>
-    </nav>
+        <div className={styles.call__to__actions}>
+          <SearchIcon />
+          <ShoppingCartIcon />
+          <ButtonMolecule text="Contact" icon={<PhoneCallIcon size="20" />} />
+        </div>
+      </nav>
+    </Container>
   );
 };
 
